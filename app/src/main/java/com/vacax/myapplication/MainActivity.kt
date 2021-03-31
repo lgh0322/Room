@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         dataScope.launch {
             val userDao = db.userDao()
             val users: List<User> = userDao.getAll()
-            println("slkdfjk昆仑山搭街坊卡拉技术的    ${users[0].firstName}")
+//            println("slkdfjk昆仑山搭街坊卡拉技术的    ${users[0].firstName}")
         }
 
     }
